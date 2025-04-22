@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from 'fs'
 import path from 'path'
 
-const configPath = path.join(process.cwd(), 'config.json')
+const configPath = path.join(__dirname, '../config.json')
 
 export default async function handler(req, res) {
   if (req.method === 'GET') {
