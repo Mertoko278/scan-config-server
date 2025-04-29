@@ -1,14 +1,5 @@
 {
-  "scan1": {
-    "scanOptions": "Barcode",
-    "title": "Barcode Scan Device 1"
-  },
-  "scan2": {
-    "scanOptions": "Barcode",
-    "title": "Barcode Scan Device 2"
-  },
-  "evidencePicture": {
-    "scanOptions": "EvidencePicture",
-    "title": "Upload evidence picture"
-  }
+  "scan1": "Barcode",
+   "scan2": "Barcode",
+   "evidencePicture": "EvidencePicture"
 }
