@@ -6,18 +6,26 @@ const configPath = path.resolve('./config.json')
 export default function handler(req, res) {
   try {
     if (req.method === 'GET') {
-      const data = fs.readFileSync(configPath, 'utf8')
-      res.status(200).json(JSON.parse(data))
+      const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'))
+      res.status(200).json(config)
     } else if (req.method === 'POST') {
-      const incoming = req.body
+      const { scan1, scan2, evidencePicture } = req.body
 
-      fs.writeFileSync(configPath, JSON.stringify(incoming, null, 2))
+      const isValid = (scan) =>
+        scan && typeof scan.scanOptions === 'string' && typeof scan.title === 'string'
+
+      if (!isValid(scan1) || !isValid(scan2) || (evidencePicture && !isValid(evidencePicture))) {
+        return res.status(400).json({ error: 'Invalid config format' })
+      }
+
+      const newConfig = { scan1, scan2, evidencePicture }
+      fs.writeFileSync(configPath, JSON.stringify(newConfig, null, 2))
       res.status(200).json({ status: 'saved' })
     } else {
-      res.status(405).end() // Method not allowed
+      res.status(405).end()
     }
   } catch (err) {
-    console.error('Error in config handler:', err)
+    console.error('Server error:', err)
     res.status(500).send('A server error has occurred')
   }
 }
