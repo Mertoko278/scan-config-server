@@ -1,5 +1,14 @@
 {
-  "scan1": "Barcode",
-   "scan2": "Barcode",
-   "evidencePicture": "EvidencePicture"
+  "scan1": {
+    "scanOptions": "Barcode",
+    "title": "Scan the first item"
+  },
+  "scan2": {
+    "scanOptions": "QRCode",
+    "title": "Scan the second item"
+  },
+  "evidencePicture": {
+    "scanOptions": "EvidencePicture",
+    "title": "Take a picture of the evidence"
+  }
 }
