@@ -4,7 +4,7 @@
     "title": "Scan the first item"
   },
   "scan2": {
-    "scanOptions": "QRCode",
+    "scanOptions": "Barcode",
     "title": "Scan the second item"
   },
   "evidencePicture": {
