@@ -1,14 +1,10 @@
 {
-  "evidencePicture": {
-    "scanOptions": "EvidencePicture",
-    "title": "Upload evidence picture"
-  },
   "scan1": {
-    "scanOptions": "NFC",
-    "title": "NFC Scan Device 1"
+    "scanOptions": "Barcode",
+    "title": "Barcode Scan Device 1"
   },
   "scan2": {
-    "scanOptions": "LicensePlate",
-    "title": "LicensePlate Scan Device 2"
+    "scanOptions": "Barcode",
+    "title": "Barcode Scan Device 2"
   }
 }
