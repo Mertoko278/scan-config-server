@@ -1,4 +1,8 @@
 {
+  "evidencePicture": {
+    "scanOptions": "EvidencePicture",
+    "title": "Upload evidence picture"
+  },
   "scan1": {
     "scanOptions": "Barcode",
     "title": "Barcode Scan Device 1"
