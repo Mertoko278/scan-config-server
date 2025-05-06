@@ -1,10 +1,17 @@
 {
+  "evidencePicture": {
+    "id": "evidence",
+    "scanOptions": "EvidencePicture",
+    "title": "Upload evidence picture"
+  },
   "scan1": {
-    "scanOptions": "NFC",
-    "title": "NFC Scan Device 1"
+    "id": "scan1",
+    "scanOptions": "QRCode",
+    "title": "QRCode Scan Device 1"
   },
   "scan2": {
-    "scanOptions": "NFC",
-    "title": "NFC Scan Device 2"
+    "id": "scan2",
+    "scanOptions": "LicensePlate",
+    "title": "LicensePlate Scan Device 2"
   }
 }
