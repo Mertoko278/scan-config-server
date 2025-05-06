@@ -4,8 +4,8 @@
     "title": "Upload evidence picture"
   },
   "scan1": {
-    "scanOptions": "LicensePlate",
-    "title": "LicensePlate Scan Device 1"
+    "scanOptions": "Barcode",
+    "title": "Barcode Scan Device 1"
   },
   "scan2": {
     "scanOptions": "Barcode",
