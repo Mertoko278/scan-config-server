@@ -6,8 +6,8 @@
   },
   "scan1": {
     "id": "scan1",
-    "scanOptions": "QRCode",
-    "title": "QRCode Scan Device 1"
+    "scanOptions": "Barcode",
+    "title": "Barcode Scan Device 1"
   },
   "scan2": {
     "id": "scan2",
