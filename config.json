@@ -11,7 +11,7 @@
   },
   "scan2": {
     "id": "scan2",
-    "scanOptions": "LicensePlate",
-    "title": "LicensePlate Scan 2"
+    "scanOptions": "Barcode",
+    "title": "Barcode Scan 2"
   }
 }
