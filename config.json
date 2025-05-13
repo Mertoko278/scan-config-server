@@ -7,11 +7,11 @@
   "scan1": {
     "id": "scan1",
     "scanOptions": "Barcode",
-    "title": "Barcode Scan Device 1"
+    "title": "Barcode Scan 1"
   },
   "scan2": {
     "id": "scan2",
-    "scanOptions": "Barcode",
-    "title": "Barcode Scan Device 2"
+    "scanOptions": "LicensePlate",
+    "title": "LicensePlate Scan 2"
   }
 }
