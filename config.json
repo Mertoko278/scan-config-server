@@ -6,8 +6,8 @@
   },
   "scan1": {
     "id": "scan1",
-    "scanOptions": "NFC",
-    "title": "NFC Scan 1"
+    "scanOptions": "Barcode",
+    "title": "Barcode Scan 1"
   },
   "scan2": {
     "id": "scan2",
