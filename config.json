@@ -1,9 +1,4 @@
 {
-  "evidencePicture": {
-    "id": "evidence",
-    "scanOptions": "EvidencePicture",
-    "title": "Upload evidence picture"
-  },
   "scan1": {
     "id": "scan1",
     "scanOptions": "LicensePlate",
