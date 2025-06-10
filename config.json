@@ -1,9 +1,4 @@
 {
-  "evidencePicture": {
-    "id": "evidence",
-    "scanOptions": "EvidencePicture",
-    "title": "Upload evidence picture"
-  },
   "scan1": {
     "id": "scan1",
     "scanOptions": "NFC",
@@ -11,7 +6,7 @@
   },
   "scan2": {
     "id": "scan2",
-    "scanOptions": "Barcode",
-    "title": "Barcode Scan 2"
+    "scanOptions": "NFC",
+    "title": "NFC Scan 2"
   }
 }
